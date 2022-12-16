@@ -1,0 +1,241 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.post-sidebar{
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.row-divided>.col+.col:not(.large-12) {
+	border-left: none
+}
+#shop-sidebar .widget-title,.post-sidebar .widget-title{
+	margin-bottom:15px;
+	display: block;
+	background: #24AF14;
+	color: white;
+	padding: 9px;
+	text-align: center;
+}
+.product-main{
+	padding-bottom: 0px;
+}
+.text-price{
+	color: red;
+}
+.product-section {
+	border-top: none;
+}
+h3.product-section-title,h1.product-title{
+	margin-left: 0px;
+	color: #24AF14;
+}
+.product-footer .woocommerce-tabs{
+	border-top: none;
+}
+.product-info .is-divider{
+	display: none;
+}
+.product-short-description{
+	margin-bottom: 20px;
+	font-size: 90%;
+	color: #5f9025;
+	background: #ebf6e0;
+	border: 1px solid #b3dc82;
+	padding: 10px;
+	font-size: 90%;
+}
+#shop-sidebar .is-divider,.post-sidebar .is-divider {
+	display: none;
+}
+.lien-he-price,span.amount{
+	font-weight: bold;
+	color: red;
+}
+.product-title a{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #24AF14;
+}
+.title-home{
+	color: #24AF14;
+}
+.section-y-kien h3{
+	color: #24AF14;
+}
+h3.title-home{
+	font-size: 26px;
+}
+#footer p,#footer li a{
+	color: #24AF14;
+}
+#footer{
+	border-bottom: 6px solid #24AF14;
+	border-top: 4px solid #24AF14;
+}
+#footer .widget-title,.copyright-footer{
+	color: #24AF14;
+}
+.is-divider{
+	background: transparent;
+}
+.section-ban-do form{
+	background: white;
+	padding: 10px;
+}
+.section-logo .box-text{
+	display: none;
+}
+.section-logo .gallery-col{
+	padding-bottom: 0px;
+}
+.row-logo .gallery-col img {
+	border: 1px solid #e3e3e3;
+}
+.section-tin .row-full-width .row{
+	max-width: 1900px;
+}
+.div-no-padding{
+	padding-bottom: 0px;
+}
+.section-cam-ket .section-bg:before {
+	content: url(images/bg_logo_left.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.section-cam-ket .section-bg:after {
+	content: url(images/bg_logo_right.png);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.section-cam-ket .box-image:hover{
+	-webkit-box-shadow: 0px -1px 18px 0px rgba(194, 162, 72, .5);
+	box-shadow: 0px -1px 18px 0px rgba(194, 162, 72, .5);
+}
+.section-cam-ket .box-image{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border: 1px solid #e1be36;
+	background: #ffffff;
+	margin: 8px auto;
+	position: relative;
+}
+
+.section-cam-ket .box-image img{
+	width: 65%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+@media(min-width: 1023px){
+	.section-cam-ket .large-3{
+		flex-basis: 20%;
+		max-width: 20%;
+	}
+}
+@media(max-width: 855px){
+
+	.section-y-kien .icon-box{
+		text-align: center;
+	}
+	.section-cam-ket .box-image {
+
+		height: 100px;}
+	.section-y-kien  .icon-box-img{
+		margin:auto !important;
+		text-align: center;
+		width: 100% !important;
+		padding-bottom: 20px;
+		display: block;
+		flex:unset;
+	}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
